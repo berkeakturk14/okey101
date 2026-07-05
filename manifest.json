@@ -1,12 +1,12 @@
 {
-    "name": "okey101",
-    "short_name": "okey101",
+    "name": "101 Dayama",
+    "short_name": "101 Dayama",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#0E2A42",
+    "theme_color": "#0E2A42",
+    "description": "101 Dayama okey oyunu",
+    "orientation": "landscape",
     "prefer_related_applications": false,
     "icons": [
         {
