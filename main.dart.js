@@ -65560,6 +65560,7 @@ q=s.go==null
 if(!q&&o.f!==s.k1){o.f=s.k1
 s=o.e
 if(s!=null)s.aD()
+o.e=null
 A.Ch(B.cx,o.ga0p(),t.H)
 return}p=s.dx==null
 if(!p&&!o.r){o.r=!0
