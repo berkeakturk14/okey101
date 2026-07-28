@@ -24885,29 +24885,24 @@ _.c=c
 _.d=d},
 JT:function JT(a){this.a=a},
 a6w:function a6w(){},
-awU(a,b,c,d,e,f,a0,a1,a2,a3,a4){var s,r,q,p,o,n,m,l,k,j,i=b.length,h=A.bc(i,0,!1,t.S),g=A.V(a1,t.N)
+awU(a,b,c,d,e,f,g,h,a0,a1,a2){var s,r,q,p,o,n,m,l,k=b.length,j=A.bc(k,0,!1,t.S),i=A.V(h,t.N)
 switch(c.a){case 0:case 8:s=1
-r=0
 break
 case 1:case 2:case 4:s=2
-r=1
 break
 case 3:case 5:case 6:s=4
-r=2
 break
 case 7:s=8
-r=3
 break
-default:s=null
-r=null}for(q=404*a3,p=q,o=r===0,n=0;n<i;++n){if(n===a4){h[n]=o?-101*s*a3:-202*s*a3
-continue}if(e[n]){m=J.aD5(b[n],0,new A.a9c(a2))
-l=f[n]
-k=l?2:1
-h[n]=m*s*a3*k}else{j=a0[n]
-if(j){h[n]=q
-l=d[n]
-g.push(l+": \xe7ift beyan etti ama a\xe7amad\u0131 \u2192 "+p)}else h[n]=202*s*a3}h[n]=h[n]+a[n]}if(a4!=null)h[a4]=h[a4]+a[a4]
-return new A.zN(a4,c,h,g)},
+default:s=null}for(r=404*a1,q=r,p=0;p<k;++p){if(p===a2){j[p]=-202*s*a1
+continue}if(e[p]){o=J.aD5(b[p],0,new A.a9c(a0))
+n=f[p]
+m=n?2:1
+j[p]=o*s*a1*m}else{l=g[p]
+if(l){j[p]=r
+n=d[p]
+i.push(n+": \xe7ift beyan etti ama a\xe7amad\u0131 \u2192 "+q)}else j[p]=202*s*a1}j[p]=j[p]+a[p]}if(a2!=null)j[a2]=j[a2]+a[a2]
+return new A.zN(a2,c,j,i)},
 awT(a){switch(a.a){case 0:return"Normal biti\u015f"
 case 1:return"Elden biti\u015f (x2)"
 case 2:return"Okey atarak biti\u015f (x2)"
@@ -80876,7 +80871,7 @@ s=this.c
 s.toString
 return A.n8(!0,new A.aiN(r,a),s,t.b3)},
 N(a){var s=this,r=null,q=s.adN(),p=s.a1f(),o=A.bh(16),n=t.V,m=A.b([new A.bI(4,B.a4,B.r.bi(0.22),B.f,40)],n),l=t.p
-return A.L0(r,A.bi(r,A.ft(A.kw(!0,A.ff(B.bv,A.b([new A.du(B.Bc,r,r,new A.bw(B.nO,q,r),r),new A.du(B.bT,r,r,new A.bw(B.nO,p,r),r),A.eb(new A.bw(B.Gb,A.I3(A.dE(A.cC(A.b([A.eb(A.cC(A.b([A.arZ(A.bi(r,A.cI(A.b([s.D1("1",B.nv,-0.08),B.aQ,s.D1("0",B.nj,0),B.aQ,s.D1("1",B.mT,0.08)],l),B.v,B.bO,B.ao),B.l,r,new A.aZ(r,r,r,o,m,r,B.y),r,r,r,B.nW,r,r,r),1),A.dE(r,12,r),A.aP("DAYAMA",r,r,r,A.cu(r,r,B.r,r,r,r,r,r,r,r,r,34,r,r,B.V,r,r,!0,r,14,r,r,r,B.Jl,r,r),r,r)],l),B.v,B.w,B.M),r,r),B.Ru,A.cI(A.b([A.lr(s.a2r(B.H7,B.AL,"BOTLARA\nKAR\u015eI",new A.aj5(s))),B.zR,A.lr(s.Kw("BETA",B.Hf,B.Zw,"ONLINE\nOYNA",new A.aj6(s)))],l),B.v,B.w,B.ao),B.Rs,s.a1U(B.H6,"KURALLAR",new A.aj7(s,a)),B.zU,A.oP(A.cI(A.b([A.bi(r,r,B.l,r,new A.aZ(B.r,r,r,A.bh(1),A.b([new A.bI(0,B.a4,B.r.bi(0.6),B.f,4)],n),r,B.y),r,5,r,r,r,r,5),B.e0,B.XL,B.e0,A.bi(r,r,B.l,r,new A.aZ(B.r,r,r,A.bh(1),A.b([new A.bI(0,B.a4,B.r.bi(0.6),B.f,4)],n),r,B.y),r,5,r,r,r,r,5)],l),B.v,B.bO,B.ao),0.6)],l),B.cA,B.w,B.M),r,340),B.ei),r),r,r)],l),B.U,B.b5),B.aw,!0),r,r,new A.Qo(r),B.B),B.l,r,B.mv,r,r,r,r,r,r,r))},
+return A.L0(r,A.bi(r,A.ft(A.kw(!0,A.ff(B.bv,A.b([new A.du(B.Bc,r,r,new A.bw(B.nO,q,r),r),new A.du(B.bT,r,r,new A.bw(B.nO,p,r),r),A.eb(new A.bw(B.Gb,A.I3(A.dE(A.cC(A.b([A.eb(A.cC(A.b([A.arZ(A.bi(r,A.cI(A.b([s.D1("1",B.nv,-0.08),B.aQ,s.D1("0",B.nj,0),B.aQ,s.D1("1",B.mT,0.08)],l),B.v,B.bO,B.ao),B.l,r,new A.aZ(r,r,r,o,m,r,B.y),r,r,r,B.nW,r,r,r),1),A.dE(r,12,r),A.aP("DAYAMA",r,r,r,A.cu(r,r,B.r,r,r,r,r,r,r,r,r,34,r,r,B.V,r,r,!0,r,14,r,r,r,B.Jl,r,r),r,r)],l),B.v,B.w,B.M),r,r),B.Ru,A.cI(A.b([A.lr(s.a2r(B.H7,B.AL,"BOTLARA\nKAR\u015eI",new A.aj5(s))),B.zR,A.lr(s.Kw("BETA",B.Hf,B.Zw,"ONLINE\nOYNA",new A.aj6(s)))],l),B.v,B.w,B.ao),B.Rs,s.a1U(B.H6,"KURALLAR",new A.aj7(s,a)),B.zU,A.oP(A.cI(A.b([A.bi(r,r,B.l,r,new A.aZ(B.r,r,r,A.bh(1),A.b([new A.bI(0,B.a4,B.r.bi(0.6),B.f,4)],n),r,B.y),r,5,r,r,r,r,5),B.e0,B.XM,B.e0,A.bi(r,r,B.l,r,new A.aZ(B.r,r,r,A.bh(1),A.b([new A.bI(0,B.a4,B.r.bi(0.6),B.f,4)],n),r,B.y),r,5,r,r,r,r,5)],l),B.v,B.bO,B.ao),0.6)],l),B.cA,B.w,B.M),r,340),B.ei),r),r,r)],l),B.U,B.b5),B.aw,!0),r,r,new A.Qo(r),B.B),B.l,r,B.mv,r,r,r,r,r,r,r))},
 a1f(){var s,r,q,p,o,n=null,m=B.r.bi(0.45)
 if($.pt!=null&&$.LB!=null){s=B.m.bi(0.28)
 r=A.bh(20)
@@ -80993,7 +80988,7 @@ $S:0}
 A.ail.prototype={
 $1(a){var s=this.a,r=t.p
 s=A.tp(A.dE(A.cC(A.b([s.$6(!0,"ODA KUR","Oyun ayarlar\u0131n\u0131 sen se\xe7ersin, kodu arkada\u015f\u0131na g\xf6nderirsin",B.GT,B.kt,B.ds),s.$6(!1,"ODAYA KATIL","Sadece oda kodunu gir \u2014 ayarlar odadan gelir",B.oD,B.Ke,B.j)],r),B.v,B.w,B.M),null,320),null)
-return A.lb(A.b([A.ms(B.it,new A.aik(a),null)],r),B.b0,s,B.nV,B.XD)},
+return A.lb(A.b([A.ms(B.it,new A.aik(a),null)],r),B.b0,s,B.nV,B.XE)},
 $S:36}
 A.aik.prototype={
 $0(){return A.c9(this.a,!1).cb()},
@@ -81005,7 +81000,7 @@ $S:499}
 A.aiR.prototype={
 $1(a){var s=null,r=this.b,q=A.arQ(s,!0,this.a,A.ard(s,s,s,s,s,s,"",s,!0,B.Z8,s,s,s,s,s,s,s,s,s,s,s,B.Z7,s,s,s,s,s,s,s,s,A.cu(s,s,B.j.bi(0.18),s,s,s,s,s,s,s,s,30,s,s,s,s,s,!0,s,8,s,s,s,s,s,s),"\u2013\u2013\u2013\u2013",s,s,s,s,s,s,s,s,s,!0,!0,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s),s,4,!1,new A.aiO(r,a),B.TM,B.bs,B.Si,s),p=$.mk,o=t.p
 p=A.tp(A.dE(A.cC(A.b([q,B.lD,A.aP('Arkada\u015f\u0131n\u0131n g\xf6nderdi\u011fi 4 haneli kodu gir.\nMasaya "'+(p==null?"Oyuncu":p)+'" ad\u0131yla oturacaks\u0131n.',s,s,s,B.Tz,B.bs,s)],o),B.v,B.w,B.M),s,300),s)
-return A.lb(A.b([A.ms(B.it,new A.aiP(a),s),A.iV(B.XE,new A.aiQ(r,a),A.I0(B.r,B.bV,s,s,B.Al))],o),B.b0,p,s,B.Xt)},
+return A.lb(A.b([A.ms(B.it,new A.aiP(a),s),A.iV(B.XF,new A.aiQ(r,a),A.I0(B.r,B.bV,s,s,B.Al))],o),B.b0,p,s,B.Xt)},
 $S:36}
 A.aiO.prototype={
 $1(a){return this.a.$1(this.b)},
@@ -81051,7 +81046,7 @@ r=s
 s=m
 m=r}q=t.p
 o=A.tp(A.dE(A.cC(A.b([n.$3("EL SAYISI",m,A.b([o.$4("1 EL",B.H_,s.c===1,new A.aiA(s,b)),o.$4("3 EL",B.GU,s.c===3,new A.aiB(s,b)),o.$4("5 EL",B.H9,s.c===5,new A.aiC(s,b)),o.$4("9 EL",B.GX,s.c===9,new A.aiD(s,b))],q)),B.il,n.$3("YARDIM","Yard\u0131ml\u0131: i\u015flek ta\u015f i\u015fareti g\xf6sterilir ve e\u015fik alt\u0131 a\xe7\u0131\u015f engellenir.",A.b([o.$4("YARDIMLI",B.H3,s.a,new A.aiE(s,b)),o.$4("YARDIMSIZ",B.H2,!s.a,new A.aiF(s,b))],q)),B.il,n.$3("KATLAMA","Katlamal\u0131: biri T puanla a\xe7arsa s\u0131radaki a\xe7\u0131c\u0131 en az T+1 a\xe7mak zorunda.",A.b([o.$4("KATLAMASIZ",B.Ha,!s.b,new A.aiG(s,b)),o.$4("KATLAMALI",B.Hb,s.b,new A.aiH(s,b))],q))],q),B.v,B.w,B.M),p,320),p)
-return A.lb(A.b([A.ms(B.it,new A.aiI(a),p),A.iV(B.Xz,new A.aiJ(s,a),A.I0(B.r,B.bV,p,p,B.Al))],q),B.b0,o,p,l)},
+return A.lb(A.b([A.ms(B.it,new A.aiI(a),p),A.iV(B.XA,new A.aiJ(s,a),A.I0(B.r,B.bV,p,p,B.Al))],q),B.b0,o,p,l)},
 $S:502}
 A.aiM.prototype={
 $4(a,b,c,d){var s=null,r=c?B.r:B.A,q=A.bh(9),p=A.ht(b,c?B.bV:B.D,s,15)
@@ -81152,7 +81147,7 @@ A.aiY.prototype={
 $0(){},
 $S:0}
 A.aiX.prototype={
-$1(a){return A.lb(A.b([A.iV(B.XG,new A.aiW(this.a),null)],t.p),B.b0,B.Rb,null,B.Xr)},
+$1(a){return A.lb(A.b([A.iV(B.XH,new A.aiW(this.a),null)],t.p),B.b0,B.Rb,null,B.Xr)},
 $S:36}
 A.aiW.prototype={
 $0(){return A.c9(this.a,!1).cb()},
@@ -81487,8 +81482,8 @@ o=A.bh(10)
 n=A.bh(10)
 m=A.dh(B.r.bi(0.4),1)
 l=t.p
-n=A.b([B.Xq,B.im,p,B.ik,A.lF(!1,o,!0,A.bi(k,A.cC(A.b([B.XJ,A.cI(A.b([A.aP(i,k,k,k,B.Wt,k,k),B.aQ,B.Hp],l),B.v,B.w,B.M)],l),B.v,B.w,B.M),B.l,k,new A.aZ(B.DK,k,m,n,k,k,B.y),k,k,k,B.nT,k,k,k),k,!0,k,k,k,k,k,k,k,k,new A.amb(this,i),k,k,k,k),B.zT],l)
-if(a)B.b.O(n,A.b([A.iV(B.XC,new A.amc(this),A.I0(B.r,B.bV,B.Rk,k,B.WI)),B.zW,B.XA],l))
+n=A.b([B.Xq,B.im,p,B.ik,A.lF(!1,o,!0,A.bi(k,A.cC(A.b([B.XK,A.cI(A.b([A.aP(i,k,k,k,B.Wt,k,k),B.aQ,B.Hp],l),B.v,B.w,B.M)],l),B.v,B.w,B.M),B.l,k,new A.aZ(B.DK,k,m,n,k,k,B.y),k,k,k,B.nT,k,k,k),k,!0,k,k,k,k,k,k,k,k,new A.amb(this,i),k,k,k,k),B.zT],l)
+if(a)B.b.O(n,A.b([A.iV(B.XD,new A.amc(this),A.I0(B.r,B.bV,B.Rk,k,B.WI)),B.zW,B.XB],l))
 else n.push(B.Pd)
 return A.bi(k,A.cC(n,B.v,B.w,B.M),B.l,B.BE,new A.aZ(j,k,q,r,B.K7,k,B.y),k,k,B.nQ,B.G6,k,k,k)},
 CZ(a,b,c){var s=null,r=A.bh(6)
@@ -81712,7 +81707,7 @@ $0(){return this.a.z=null},
 $S:0}
 A.amN.prototype={
 $1(a){var s=null,r=A.aP(this.b.a+" ta\u015f\u0131n\u0131 almak istiyor!",s,s,s,B.lM,s,s),q=this.a
-return A.lb(A.b([A.ms(B.XF,new A.amL(q),s),A.iV(B.Xs,new A.amM(q),s)],t.p),B.b0,B.Xy,s,r)},
+return A.lb(A.b([A.ms(B.XG,new A.amL(q),s),A.iV(B.Xs,new A.amM(q),s)],t.p),B.b0,B.Xy,s,r)},
 $S:36}
 A.amL.prototype={
 $0(){var s=this.a,r=s.c
@@ -81734,7 +81729,7 @@ s.Rw(B.ax)},
 $S:0}
 A.am2.prototype={
 $1(a){var s=this.a
-return A.lb(A.b([A.ms(B.Xp,new A.am0(s),null),A.iV(B.As,new A.am1(s),null)],t.p),B.b0,B.XH,null,B.XN)},
+return A.lb(A.b([A.ms(B.Xp,new A.am0(s),null),A.iV(B.As,new A.am1(s),null)],t.p),B.b0,B.XI,null,B.XN)},
 $S:36}
 A.am0.prototype={
 $0(){var s=this.a.c
@@ -81772,7 +81767,7 @@ for(n=r.length,i=0;i<r.length;r.length===n||(0,A.o)(r),++i)o.push(A.aP("\u2022 "
 B.b.O(p,o)}r=A.tp(A.cC(p,B.bj,B.w,B.M),g)
 q=A.b([],q)
 if(e.gtU())q.push(A.iV(B.As,new A.amR(f),g))
-else q.push(A.iV(B.XK,new A.amS(f),g))
+else q.push(A.iV(B.XL,new A.amS(f),g))
 return A.lb(q,B.b0,r,g,s)},
 $S:36}
 A.amQ.prototype={
@@ -81826,7 +81821,7 @@ n=a2.y
 if(s){n===$&&A.a()
 a2=A.Bf(!1,m,!1,n,B.Nn,o)
 s=A.bh(9)
-a1.push(A.ff(B.bv,A.b([a2,A.dR(m,A.bi(m,B.XB,B.l,m,new A.aZ(B.r,m,A.dh(B.D,0.8),s,m,m,B.y),m,m,m,B.Gn,m,m,m),m,m,m,-7,-7,m)],b),B.l,B.b5))}else{b=a2.x
+a1.push(A.ff(B.bv,A.b([a2,A.dR(m,A.bi(m,B.XC,B.l,m,new A.aZ(B.r,m,A.dh(B.D,0.8),s,m,m,B.y),m,m,m,B.Gn,m,m,m),m,m,m,-7,-7,m)],b),B.l,B.b5))}else{b=a2.x
 b===$&&A.a()
 b=b.b
 b.toString
@@ -89059,8 +89054,8 @@ B.Pd=new A.mb(B.al,B.bO,B.M,B.v,null,B.c5,null,0,B.Jk,null)
 B.Hm=new A.eG(B.oD,18,B.r,null,null)
 B.aQ=new A.c0(6,null,null,null)
 B.Ux=new A.j(!0,B.r,null,null,null,null,13,B.ho,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XI=new A.bU("G\u0130R\u0130\u015e YAP",null,B.Ux,null,null,null,null,null,null)
-B.Kh=s([B.Hm,B.aQ,B.XI],t.p)
+B.XJ=new A.bU("G\u0130R\u0130\u015e YAP",null,B.Ux,null,null,null,null,null,null)
+B.Kh=s([B.Hm,B.aQ,B.XJ],t.p)
 B.Pe=new A.mb(B.al,B.w,B.M,B.v,null,B.c5,null,0,B.Kh,null)
 B.Pf=new A.zQ(1333)
 B.l8=new A.zQ(2222)
@@ -89275,8 +89270,8 @@ B.R8=new A.a4(B.d8,!0,!0,!1,!1,B.bd)
 B.R9=new A.a4(B.eS,!1,!1,!1,!0,B.n)
 B.Ra=new A.a4(B.d4,!0,!1,!1,!1,B.be)
 B.Uk=new A.j(!0,B.D,null,null,null,null,13,null,null,null,null,null,1.3,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XM=new A.bU("\u2022 Ba\u015flayan 21, di\u011ferleri 20 ta\u015f al\u0131r. Ba\u015flayan \xe7ekmeden atar.\n\n\u2022 El a\xe7mak i\xe7in seri/perlerin toplam\u0131 en az 101 olmal\u0131.\n\n\u2022 \xc7ift a\xe7ma: en az 5 \xe7ift + 1 seri/per gerekir. G\xf6sterge ta\u015f\u0131n\u0131n ikizi tek ba\u015f\u0131na \xe7ift say\u0131l\u0131r.\n\n\u2022 12-13-1 serisi GE\xc7ERS\u0130ZD\u0130R. 1 sadece ba\u015fta kullan\u0131l\u0131r (1-2-3).\n\n\u2022 Soldan al\u0131nan ta\u015fla el a\xe7\u0131l\u0131rsa ta\u015f\u0131 atana ceza: seri a\xe7ana kar\u015f\u0131 x10, \xe7ift a\xe7ana kar\u015f\u0131 beyan\u0131na g\xf6re x20/x40. Atan \"\xe7iftim\" derse seri a\xe7\u0131lamaz.\n\n\u2022 S\xdcRME: Soldan ta\u015f al\u0131p a\xe7madan devam eden \xe7ift oldu\u011funu kabul eder; a\xe7ana kadar s\xfcrebilir, a\xe7amazsa 404 yer.\n\n\u2022 A\xe7\u0131lm\u0131\u015f gruplara eklenebilen (i\u015flek) ta\u015f\u0131 yere atan +101 ceza al\u0131r. \u0130\u015fleme yaln\u0131z el a\xe7t\u0131ktan sonra yap\u0131l\u0131r.\n\n\u2022 \xc7ifte i\u015fleme: a\xe7\u0131lm\u0131\u015f bir \xe7iftin ikizi \xe7ifte i\u015flenebilir. Seri a\xe7an bir turda en fazla 3 \xe7ift i\u015fleyebilir (\xe7ift a\xe7an yoksa masada \xe7ift olmayaca\u011f\u0131ndan \xe7ift i\u015flenemez). \xc7ift a\xe7an seriye/pere de i\u015fler ama bir grubun AYNI ucuna tur ba\u015f\u0131na EN FAZLA 2 ta\u015f \u2014 tek uca 3 ta\u015f (\xf6r. 3-4-5) ba\u015fl\u0131 ba\u015f\u0131na yeni bir grup a\xe7makla ayn\u0131 olurdu. Farkl\u0131 u\xe7lara/gruplara 2'\u015fer serbesttir (\xf6r. 6-7-8'e 4-5 ve 9-10).\n\n\u2022 A\xe7\u0131lm\u0131\u015f oyuncunun yerden ald\u0131\u011f\u0131 ta\u015f \u0130\u015eLENEMEZ \u2014 ancak yeni bir grupla (seri/per/\xe7ift) masaya konarak al\u0131nabilir; konmadan ta\u015f at\u0131lamaz (GER\u0130 KOY serbest).\n\n\u2022 OKEY \xc7EKME: masadaki gruptaki okeyin ger\xe7ek kar\u015f\u0131l\u0131\u011f\u0131n\u0131 elinde tutan, ta\u015f\u0131 gruba koyup okeyi eline al\u0131r; grubu a\xe7an +101 ceza yer. Seride ve \xe7iftte okeyin yeri bellidir; perde ancak per 4'lenince belli olur \u2014 o zaman \xe7ekilebilir.\n\n\u2022 Biti\u015f: normal biti\u015fte kazanan -101, a\xe7mam\u0131\u015f +202. \xd6ZEL biti\u015fte (elden / okey atarak / \xe7ift) kazanan kaybedenle simetrik olur: kazanan -404, a\xe7mam\u0131\u015f 404, a\xe7anlar\u0131n eli x2. Bunlar \xe7arp\u0131\u015f\u0131r: elden+\xe7ift x4 (kazanan -808, a\xe7mam\u0131\u015f 808), elden+okey x4. Kanl\u0131 elde hepsi ayr\u0131ca x2 (elden -808/808, elden+\xe7ift -1616/1616). \xc7ift beyanl\u0131 a\xe7amayan sabit 404 yer.\n\n\u2022 Okeye \xe7ift t\u0131klayarak beyaz g\xf6r\xfcn\xfcme \xe7evirebilirsin.\n\n\u2022 Deste bitince (\xe7ekilecek ta\u015f kalmay\u0131nca) el BERABERE biter; son ta\u015fla soldan al\u0131p oyun s\xfcrd\xfcr\xfclemez.\n\n\u2022 YARDIMLI / YARDIMSIZ (men\xfcden se\xe7ilir): YARDIMLI'da uygulama korkuluk sa\u011flar \u2014 e\u015fik alt\u0131 (101 puan / gerekli \xe7ift) a\xe7may\u0131 ENGELLER ve atarsan ceza yiyece\u011fin \u0130\u015eLEK ta\u015flar\u0131n alt\u0131n\u0131 k\u0131rm\u0131z\u0131 i\u015faretler. YARDIMSIZ'da hi\xe7bir i\u015faret yoktur ve katlamal\u0131 e\u015fi\u011fin alt\u0131nda a\xe7maya \xe7al\u0131\u015f\u0131rsan uyar\u0131lmazs\u0131n; el yine A\xc7ILMAZ (a\u015fa\u011f\u0131 inmez) ama +101 ceza yersin.\n\n\u2022 Ma\xe7 9 el s\xfcrer; sonunda en d\xfc\u015f\xfck toplam puanl\u0131 oyuncu \u015fampiyon olur.\n\n\u2022 KATLAMALI (ma\xe7 ba\u015f\u0131nda se\xe7ilir, iki modda da ge\xe7erli): biri T puanla a\xe7arsa s\u0131radaki a\xe7\u0131c\u0131 en az T+1 a\xe7mak zorundad\u0131r. \xc7\u0130FTTE de ge\xe7erli: biri N \xe7iftle a\xe7arsa s\u0131radaki \xe7ift a\xe7\u0131c\u0131 en az N+1 \xe7ift a\xe7mal\u0131 (5 \u2192 6 \u2192 7...). Her a\xe7\u0131\u015fta e\u015fik y\xfckselir, yeni elde s\u0131f\u0131rlan\u0131r (101 puan / 5 \xe7ift). Katlamas\u0131zda e\u015fik sabittir.\n\n\u2022 KANLI DAYAMA: 1., 5. ve 9. eller \"kanl\u0131\"d\u0131r: G\xd6STERGE \xc7EK\u0130LMEZ, t\xfcm 106 ta\u015f oyunda kal\u0131r. Joker do\u011frudan YILDIZLI ta\u015ft\u0131r (sahte okey); normal okey diye bir ta\u015f yoktur, her ta\u015f y\xfcz de\u011feriyle oynar. 101 cezas\u0131 hari\xe7 t\xfcm ceza/\xf6d\xfcller 2 kat\u0131d\u0131r.",null,B.Uk,null,null,null,null,null,null)
-B.Rb=new A.Ao(null,B.XM,null)
+B.Xz=new A.bU("\u2022 Ba\u015flayan 21, di\u011ferleri 20 ta\u015f al\u0131r. Ba\u015flayan \xe7ekmeden atar.\n\n\u2022 El a\xe7mak i\xe7in seri/perlerin toplam\u0131 en az 101 olmal\u0131.\n\n\u2022 \xc7ift a\xe7ma: en az 5 \xe7ift + 1 seri/per gerekir. G\xf6sterge ta\u015f\u0131n\u0131n ikizi tek ba\u015f\u0131na \xe7ift say\u0131l\u0131r.\n\n\u2022 12-13-1 serisi GE\xc7ERS\u0130ZD\u0130R. 1 sadece ba\u015fta kullan\u0131l\u0131r (1-2-3).\n\n\u2022 Soldan al\u0131nan ta\u015fla el a\xe7\u0131l\u0131rsa ta\u015f\u0131 atana ceza: seri a\xe7ana kar\u015f\u0131 x10, \xe7ift a\xe7ana kar\u015f\u0131 beyan\u0131na g\xf6re x20/x40. Atan \"\xe7iftim\" derse seri a\xe7\u0131lamaz.\n\n\u2022 S\xdcRME: Soldan ta\u015f al\u0131p a\xe7madan devam eden \xe7ift oldu\u011funu kabul eder; a\xe7ana kadar s\xfcrebilir, a\xe7amazsa 404 yer.\n\n\u2022 A\xe7\u0131lm\u0131\u015f gruplara eklenebilen (i\u015flek) ta\u015f\u0131 yere atan +101 ceza al\u0131r. \u0130\u015fleme yaln\u0131z el a\xe7t\u0131ktan sonra yap\u0131l\u0131r.\n\n\u2022 \xc7ifte i\u015fleme: a\xe7\u0131lm\u0131\u015f bir \xe7iftin ikizi \xe7ifte i\u015flenebilir. Seri a\xe7an bir turda en fazla 3 \xe7ift i\u015fleyebilir (\xe7ift a\xe7an yoksa masada \xe7ift olmayaca\u011f\u0131ndan \xe7ift i\u015flenemez). \xc7ift a\xe7an seriye/pere de i\u015fler ama bir grubun AYNI ucuna tur ba\u015f\u0131na EN FAZLA 2 ta\u015f \u2014 tek uca 3 ta\u015f (\xf6r. 3-4-5) ba\u015fl\u0131 ba\u015f\u0131na yeni bir grup a\xe7makla ayn\u0131 olurdu. Farkl\u0131 u\xe7lara/gruplara 2'\u015fer serbesttir (\xf6r. 6-7-8'e 4-5 ve 9-10).\n\n\u2022 A\xe7\u0131lm\u0131\u015f oyuncunun yerden ald\u0131\u011f\u0131 ta\u015f \u0130\u015eLENEMEZ \u2014 ancak yeni bir grupla (seri/per/\xe7ift) masaya konarak al\u0131nabilir; konmadan ta\u015f at\u0131lamaz (GER\u0130 KOY serbest).\n\n\u2022 OKEY \xc7EKME: masadaki gruptaki okeyin ger\xe7ek kar\u015f\u0131l\u0131\u011f\u0131n\u0131 elinde tutan, ta\u015f\u0131 gruba koyup okeyi eline al\u0131r; grubu a\xe7an +101 ceza yer. Seride ve \xe7iftte okeyin yeri bellidir; perde ancak per 4'lenince belli olur \u2014 o zaman \xe7ekilebilir.\n\n\u2022 Biti\u015f: normal biti\u015fte kazanan -202, a\xe7mam\u0131\u015f +202 (simetrik). \xd6ZEL biti\u015fte (elden / okey atarak / \xe7ift) her \u015fey x2: kazanan -404, a\xe7mam\u0131\u015f 404, a\xe7anlar\u0131n eli x2. Bunlar \xe7arp\u0131\u015f\u0131r: elden+\xe7ift x4 (kazanan -808, a\xe7mam\u0131\u015f 808), elden+okey x4. Kanl\u0131 elde hepsi ayr\u0131ca x2 (elden -808/808, elden+\xe7ift -1616/1616). \xc7ift beyanl\u0131 a\xe7amayan sabit 404 yer.\n\n\u2022 Okeye \xe7ift t\u0131klayarak beyaz g\xf6r\xfcn\xfcme \xe7evirebilirsin.\n\n\u2022 Deste bitince el BERABERE biter \u2014 ama biti\u015f SON TA\u015e ATILDIKTAN sonra olur (son ta\u015f\u0131 \xe7eken turunu tamamlar, o ta\u015fla bitirebilir). SON \u015eANS: s\xfcrm\xfc\u015f oyuncu, deste bitse bile solundakinin att\u0131\u011f\u0131 son ta\u015f\u0131 alabilir.\n\n\u2022 S\xdcRME (bakma): yerden ald\u0131\u011f\u0131n ta\u015f elindeyken at\u0131lan ta\u015flara bakarsan s\xfcrm\xfc\u015f say\u0131l\u0131rs\u0131n \u2014 sadece \xe7ift a\xe7abilirsin ve ta\u015f\u0131 geri koyamazs\u0131n.\n\n\u2022 YARDIMLI / YARDIMSIZ (men\xfcden se\xe7ilir): YARDIMLI'da uygulama korkuluk sa\u011flar \u2014 e\u015fik alt\u0131 (101 puan / gerekli \xe7ift) a\xe7may\u0131 ENGELLER ve atarsan ceza yiyece\u011fin \u0130\u015eLEK ta\u015flar\u0131n alt\u0131n\u0131 k\u0131rm\u0131z\u0131 i\u015faretler. YARDIMSIZ'da hi\xe7bir i\u015faret yoktur ve katlamal\u0131 e\u015fi\u011fin alt\u0131nda a\xe7maya \xe7al\u0131\u015f\u0131rsan uyar\u0131lmazs\u0131n; el yine A\xc7ILMAZ (a\u015fa\u011f\u0131 inmez) ama +101 ceza yersin.\n\n\u2022 Ma\xe7 9 el s\xfcrer; sonunda en d\xfc\u015f\xfck toplam puanl\u0131 oyuncu \u015fampiyon olur.\n\n\u2022 KATLAMALI (ma\xe7 ba\u015f\u0131nda se\xe7ilir, iki modda da ge\xe7erli): biri T puanla a\xe7arsa s\u0131radaki a\xe7\u0131c\u0131 en az T+1 a\xe7mak zorundad\u0131r. \xc7\u0130FTTE de ge\xe7erli: biri N \xe7iftle a\xe7arsa s\u0131radaki \xe7ift a\xe7\u0131c\u0131 en az N+1 \xe7ift a\xe7mal\u0131 (5 \u2192 6 \u2192 7...). Her a\xe7\u0131\u015fta e\u015fik y\xfckselir, yeni elde s\u0131f\u0131rlan\u0131r (101 puan / 5 \xe7ift). Katlamas\u0131zda e\u015fik sabittir.\n\n\u2022 KANLI DAYAMA: 1., 5. ve 9. eller \"kanl\u0131\"d\u0131r: G\xd6STERGE \xc7EK\u0130LMEZ, t\xfcm 106 ta\u015f oyunda kal\u0131r. Joker do\u011frudan YILDIZLI ta\u015ft\u0131r (sahte okey); normal okey diye bir ta\u015f yoktur, her ta\u015f y\xfcz de\u011feriyle oynar. 101 cezas\u0131 hari\xe7 t\xfcm ceza/\xf6d\xfcller 2 kat\u0131d\u0131r.",null,B.Uk,null,null,null,null,null,null)
+B.Rb=new A.Ao(null,B.Xz,null)
 B.Rc=new A.y(1e5,1e5)
 B.zM=new A.y(10,10)
 B.ij=new A.y(1,1)
@@ -89748,22 +89743,22 @@ B.Xx=new A.bU("\xc7\u0131k\u0131\u015f Yap",null,B.fp,null,null,null,null,null,n
 B.An=new A.j(!0,B.D,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Xy=new A.bU("Att\u0131\u011f\u0131n ta\u015f\u0131 almak istiyor. Ne beyan ediyorsun?\n\n\u2022 SER\u0130Y\u0130M: normal beyan \u2014 al\u0131rsa beyan\u0131na g\xf6re ceza yaz\u0131l\u0131r.\n\u2022 \xc7\u0130FT\u0130M: ta\u015f\u0131 yaln\u0131z \xe7ift a\xe7an alabilir (seri a\xe7acaksa alamaz); ama sen de art\u0131k yaln\u0131z \xe7ift a\xe7abilirsin (kilitlenirsin).",null,B.An,null,null,null,null,null,null)
 B.it=new A.bU("VAZGE\xc7",null,B.Am,null,null,null,null,null,null)
-B.Xz=new A.bU("BA\u015eLA",null,null,null,null,null,null,null,null)
-B.XA=new A.bU("Bo\u015f koltuklar bot oynar.",null,B.Ak,B.bs,null,null,null,null,null)
+B.XA=new A.bU("BA\u015eLA",null,null,null,null,null,null,null,null)
+B.XB=new A.bU("Bo\u015f koltuklar bot oynar.",null,B.Ak,B.bs,null,null,null,null,null)
 B.VT=new A.j(!0,B.m,null,null,null,null,10,B.V,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XB=new A.bU("\xd72",null,B.VT,null,null,null,null,null,null)
-B.XC=new A.bU("BA\u015eLAT",null,null,null,null,null,null,null,null)
-B.XD=new A.bU("ONLINE OYNA",null,B.fq,null,null,null,null,null,null)
-B.XE=new A.bU("KATIL",null,null,null,null,null,null,null,null)
-B.XF=new A.bU("SER\u0130Y\u0130M",null,null,null,null,null,null,null,null)
-B.XG=new A.bU("Tamam",null,null,null,null,null,null,null,null)
-B.XH=new A.bU("Devam eden el kaybolur.",null,B.An,null,null,null,null,null,null)
+B.XC=new A.bU("\xd72",null,B.VT,null,null,null,null,null,null)
+B.XD=new A.bU("BA\u015eLAT",null,null,null,null,null,null,null,null)
+B.XE=new A.bU("ONLINE OYNA",null,B.fq,null,null,null,null,null,null)
+B.XF=new A.bU("KATIL",null,null,null,null,null,null,null,null)
+B.XG=new A.bU("SER\u0130Y\u0130M",null,null,null,null,null,null,null,null)
+B.XH=new A.bU("Tamam",null,null,null,null,null,null,null,null)
+B.XI=new A.bU("Devam eden el kaybolur.",null,B.An,null,null,null,null,null,null)
 B.WF=new A.j(!0,B.ex,null,null,null,null,9,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XJ=new A.bU("ODA KODU",null,B.WF,null,null,null,null,null,null)
+B.XK=new A.bU("ODA KODU",null,B.WF,null,null,null,null,null,null)
 B.As=new A.bU("Men\xfcye D\xf6n",null,null,null,null,null,null,null,null)
-B.XK=new A.bU("Yeni El",null,null,null,null,null,null,null,null)
+B.XL=new A.bU("Yeni El",null,null,null,null,null,null,null,null)
 B.SN=new A.j(!0,B.D,null,null,null,null,10,B.aO,null,4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.XL=new A.bU("SELENDOS GAMES",null,B.SN,null,null,null,null,null,null)
+B.XM=new A.bU("SELENDOS GAMES",null,B.SN,null,null,null,null,null,null)
 B.XN=new A.bU("Men\xfcye d\xf6n?",null,B.lM,null,null,null,null,null,null)
 B.a0d=new A.acJ(0,"system")
 B.N4=new A.h(0.056,0.024)
