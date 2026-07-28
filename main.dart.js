@@ -83190,7 +83190,7 @@ s.push(k);++p
 n+=k.c}else{j=q.iE(l)
 if(j==null)return new A.f8(!1,"Ge\xe7ersiz grup: "+this.BO(l),B.bJ,0)
 s.push(j);++o
-n+=j.c}}if(!b){if(p<c)return A.rO("En az "+c+" \xe7ift gerekli (\u015fu an "+p+")")
+n+=j.c}}if(!b){if(p<c)return A.rO("En az "+c+" \xe7ift gerekli")
 if(o<1)return A.rO("\xc7ift a\xe7mak i\xe7in en az 1 seri/per da gerekli")}else if(o>0)return A.rO("\xc7ifte gittin \u2014 sadece \xe7ift atabilirsin")
 return new A.f8(!0,null,s,n)},
 BO(a){return J.l9(a,new A.a6r(),t.N).bA(0,"-")}}
