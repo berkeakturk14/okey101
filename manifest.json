@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0E2A42",
-    "theme_color": "#0E2A42",
+    "theme_color": "#FFC400",
     "description": "101 Dayama okey oyunu",
     "orientation": "landscape",
     "prefer_related_applications": false,
