@@ -81413,7 +81413,7 @@ if(j.length>=3){i=c.z
 i===$&&A.a()
 h=i.iE(j)
 if(h!=null)l+=h.c}}n=c.r
-g=p&&c.agh(0)
+g=c.e&&p&&c.agh(0)
 m=t.p
 i=A.b([],m)
 if(p)f=!r.d||!r.e
