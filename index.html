@@ -52,6 +52,42 @@
     }
   </style>
   <link rel="manifest" href="manifest.json">
+
+  <!--
+    ÇENTİK (iPhone Dynamic Island) — ZORUNLU YAMA.
+
+    Flutter web motoru açılışta head'deki BÜTÜN viewport etiketlerini SİLİP
+    kendi etiketini koyuyor (main.dart.js içinde:
+      querySelectorAll('meta[name="viewport"]') ... remove()
+      p.name="viewport"
+    ve içeriği "width=device-width, initial-scale=1.0, maximum-scale=1.0,
+    user-scalable=no" — yani bizimkinin aynısı AMA viewport-fit=cover YOK).
+
+    Sonuç: Safari sayfayı çentiğin içine sokmuyor, iki yandan 59'ar piksel
+    kırpıyor ve güvenli alan payı olarak SIFIR bildiriyor. iPhone 16 yatayda
+    852x393 yerine 734x393 tuval geliyordu; Flutter tarafında yapılan hiçbir
+    düzeltme o şeridi geri alamıyor, çünkü tuval oraya kadar uzanmıyor.
+
+    Aşağıdaki gözlemci, etiket ne zaman değişirse değişsin cover'ı geri
+    ekliyor. indexOf kontrolü sonsuz döngüyü engelliyor (kendi yazdığımız
+    değişiklik gözlemciyi tekrar tetikliyor ama ikinci turda iş yapmıyor).
+  -->
+  <script>
+    (function () {
+      var cover = 'viewport-fit=cover';
+      function duzelt() {
+        var m = document.querySelector('meta[name="viewport"]');
+        if (m && m.content.indexOf(cover) === -1) {
+          m.content = m.content + ', ' + cover;
+        }
+      }
+      duzelt();
+      new MutationObserver(duzelt).observe(document.head, {
+        childList: true, subtree: true, attributes: true,
+        attributeFilter: ['content', 'name']
+      });
+    })();
+  </script>
 </head>
 <body>
   <!--
