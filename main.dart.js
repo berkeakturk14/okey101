@@ -97848,7 +97848,8 @@ return i},
 TK(a,b,c,d){var s,r,q,p=this,o=p.ax[a]
 p.ry=null
 if(!o.d)return!1
-s=p.ch[c].a
+if(o.c.length<=1){p.ry="Son ta\u015f\u0131n\u0131 i\u015fleyemezsin \u2014 bitirmek i\xe7in ta\u015f atmal\u0131s\u0131n"
+return!1}s=p.ch[c].a
 if(p.RG===b.a){p.ry="Yerden ald\u0131\u011f\u0131n ta\u015f i\u015flenemez \u2014 yeni bir grupla masaya koymal\u0131s\u0131n"
 return!1}if(s.a===B.cv){if(!o.e&&p.p2>=3){p.ry="Bir turda en fazla 3 \xe7ift i\u015flenebilir"
 return!1}return!0}if(o.e){r=p.Q
@@ -97994,14 +97995,7 @@ for(m=0;m<q.length;++m){if(f.on(a,o,m)){f.r.a.dw(A.a3(["type","retrieveOkey","ti
 return 1}if(f.vd(a,o,m)){f.r.a.a0A(o,m,null)
 return 1}}}return 0}if(a!==f.cy||f.db!==B.be)return 0
 if(!e.d)return 0
-s=e.c
-r=t.e
-q=f.ch
-l=0
-k=!0
-for(;;){if(!(k&&s.length>1))break
-for(n=A.cQ(s,!0,r),j=n.length,k=!1,p=0;p<n.length;n.length===j||(0,A.q)(n),++p){o=n[p]
-if(s.length<=1)break
+for(s=e.c,r=t.e,q=f.ch,l=0,k=!0;k;)for(n=A.cQ(s,!0,r),j=n.length,k=!1,p=0;p<n.length;n.length===j||(0,A.q)(n),++p){o=n[p]
 i=f.z
 i===$&&A.a()
 if(i.eV(o))continue
@@ -98011,7 +98005,7 @@ l=g
 break}if(f.vd(a,o,m))if(f.ay7(a,o,m)){g=l+1
 k=h
 l=g
-break}}}}return l},
+break}}}return l},
 UH(a){var s,r=this.ax,q=r[a]
 if(!q.d||q.e)return B.tF
 if(!B.b.d0(r,new A.a7Z()))return B.tF
