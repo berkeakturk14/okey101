@@ -97330,7 +97330,7 @@ $2(a,b){if(a)return
 this.a.QD()},
 $S:597}
 A.aBF.prototype={
-$2(a9,b0){var s,r,q,p,o,n,m,l,k,j=null,i=b0.b,h=b0.d,g=h*0.28,f=B.c.bg(h*0.088,34,58),e=A.b3z(a9),d=e.a,c=e.c,b=i*0.105+d,a=i*0.115,a0=a+c,a1=i*0.068,a2=g+f+4,a3=B.c.bg(i/26,24,46),a4=e.b,a5=a4+36+4,a6=this.a,a7=A.hl(260),a8=t.p
+$2(a9,b0){var s,r,q,p,o,n,m,l,k,j=null,i=b0.b,h=b0.d,g=h*0.28,f=B.c.bg(h*0.088,34,58),e=A.b3z(a9),d=e.a,c=e.c,b=Math.min(i*0.105,h*0.26)+d,a=i*0.115,a0=Math.min(a,g)+c,a1=i*0.068,a2=g+f+4,a3=B.c.bg(i/26,24,46),a4=e.b,a5=a4+36+4,a6=this.a,a7=A.hl(260),a8=t.p
 a7=A.b([A.aFG(a2,new A.dY(new A.eo(a6.aj_(a3,!1),a6.k4),j),B.cv,a7,b,a0+a1,a5)],a8)
 s=a6.k1
 r=s[2]
@@ -97379,7 +97379,7 @@ a7.push(A.c1(j,a6.Xj(3),j,r,s,j,h*0.3,j))
 a4=a4[1]
 a7.push(A.c1(a2,A.cm(A.fL(B.D,new A.eo(a6.Xj(1),a4),B.bl),j,j),j,j,j,o,a5,i*0.09))
 a4=h-a2-a5
-s=a3*1.3
+s=a3*1.15
 r=a6.d
 r===$&&A.a()
 k=r.cy===0&&r.k4==null&&r.db===B.cd
@@ -97396,7 +97396,7 @@ a8.toString
 o===$&&A.a()
 q.push(A.mJ(!1,j,!1,o,j,a8,s))}q.push(B.c8)
 q.push(a6.abZ(s,k))
-a7.push(A.c1(j,A.cm(A.fL(B.D,A.aQ(q,B.n,B.l,B.t),B.bl),j,j),a4*0.86,j,j,c+10+a,a5+a4*0.12,a1))
+a7.push(A.c1(j,A.cm(A.fL(B.D,A.aQ(q,B.n,B.l,B.t),B.bl),j,j),a4*0.74,j,j,c+10+a,a5+a4*0.22,a1))
 a7.push(A.c1(g+2,a6.aab(),f,j,0,0,j,j))
 a7.push(A.c1(0,new A.dY(a6.alK(i,g),j),g,a6.k3,0,0,j,j))
 a7.push(a6.ap7())
